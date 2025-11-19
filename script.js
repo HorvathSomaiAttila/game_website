@@ -1,3 +1,20 @@
+const filterBtns = document.querySelectorAll(".filtergombs button");
+const cards = document.querySelectorAll(".card");
+
+filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+        const tipus = btn.dataset.filter;
+
+        cards.forEach(card => {
+            if(tipus === "all" || card.dataset.type === tipus) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    })
+});
+
 const beatdownDesc = `
 🎮 <strong>Hogyan működik a Beatdown?</strong><br><br>
 A beatdown deckek magas elixírköltségű egységekre, erős tankokra, és támogató csapatokra épülnek.<br>

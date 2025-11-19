@@ -79,23 +79,57 @@ a:hover {
 .row1, .row2 {
     display: flex;
     gap: 1rem;
-    font-size: 17.5px;
+    font-size: 30px;
     background-color: rgba(10, 46, 107, 0.33);
-    padding: 1rem;
+    padding: 3rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.szoveg1 {
+    max-width: 44.4rem;
+}
+
+.szoveg2 {
+    max-width: 40%;
 }
 
 .row1 img {
-    max-width: 10rem;
+    max-width: 30rem;
 }
 
 .row2 img {
-    max-width: 30rem;
+    max-width: 39rem;
+    height: 25rem;
 }
 
 .kep1, .kep2 {
     display: flex;
     align-items: center;
+}
+
+
+.filtergombs {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: space-around;
+}
+
+.filtergombs button {
+    width: 19%;
+    height: 3rem;
+    background-color: rgba(7, 35, 84, 0.95);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filtergombs button:hover {
+    border: 2px solid goldenrod;
+    color: goldenrod;
 }
 
 .cards-cont {
@@ -150,11 +184,14 @@ hr {
 }
 
 #deck-title {
-    color: goldenrod;
+    color: gold;
     text-shadow: 1rem;
+    font-size: 3rem;
+    text-shadow: 2px 3px 5px rgb(106, 79, 9);
 }
 
 #deckscription {
     font-size: 1.487rem;
     margin: 1rem;
 }
+
