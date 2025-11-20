@@ -219,3 +219,12 @@ hr {
     margin: 3rem;
 }
 
+.makers {
+    float: left;
+    width: 15rem;
+    background: rgba(0,0,0,0.4);
+    padding: 1.111rem;
+    color: rgb(194, 149, 37);
+    border-left: 2px solid rgb(133, 99, 14);
+    border-right: 2px solid rgb(133, 99, 14);
+}
