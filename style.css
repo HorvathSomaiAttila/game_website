@@ -38,7 +38,7 @@ a:hover {
 .item {
     border: 6px solid transparent;
     height: 100%;
-    width: 25%;
+    width: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .outer-border {
-    margin-top: 3rem;
+    margin: 5rem;
     width: 90%;
     border: 10px outset goldenrod;
     border-radius: 5px;
@@ -104,11 +104,35 @@ a:hover {
     height: 25rem;
 }
 
+.row1 img, .row2 img, .evoPic {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
 .kep1, .kep2 {
     display: flex;
     align-items: center;
 }
 
+.extra-info {
+    width: 99%;
+    padding: 3rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    font-size: 1.69rem;
+    background-color: rgba(10, 46, 107, 0.33)
+}
+
+.extra-info h2 {
+    margin-top: 2.22rem;
+    color: gold;
+}
+
+.evoPic {
+    max-width: 33.33rem;
+    float: right;
+    margin: 1rem;
+}
 
 .filtergombs {
     display: flex;
@@ -192,6 +216,6 @@ hr {
 
 #deckscription {
     font-size: 1.487rem;
-    margin: 1rem;
+    margin: 3rem;
 }
 
